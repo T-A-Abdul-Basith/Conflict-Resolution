@@ -22,6 +22,7 @@ int main() {
 	
 		if (operation == 'A') { // There appears to be some bug in this if condition... one team member should focus on fixing this
 			printName();
+			printf("\n");
 		} else if (operation == 'b') {
 	
 			// input
@@ -35,7 +36,7 @@ int main() {
 			printf("a + b = %d\n", add(a, b));
 
 		} else if (operation == 'c') {
-			printf("Quitting...");
+			printf("Quitting...\n");
 			break;
 		} // currently, the app doesn't say anything if you enter an invalid input, one team member must make it output an error message
 	}
